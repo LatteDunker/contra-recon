@@ -12,3 +12,15 @@
 .outer-glow {
   box-shadow: 0 5px 8px rgba(143, 111, 219, 0.34), 0 3px 8px rgba(83, 193, 222, 0.34);
 }
+
+/* Hide scrollbar for Chrome, Safari and Edge */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+

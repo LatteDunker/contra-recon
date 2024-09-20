@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css'; 
-import Testimonials from './Testimonials';
+import LogoCarousel from './LogoCarousel';
 
 
 function Content() {
@@ -29,8 +29,9 @@ function Content() {
                 </div>
                 <div className="bg-gray-100 w-[60%]">Col 2</div>
             </div>
-            <div>
-                <Testimonials></Testimonials>
+            <div className='flex flex-col items-center'>
+                <div> <p>Trusted by <strong>800K+</strong> freelancers and <strong>20K+</strong> teams like</p></div>
+                <LogoCarousel></LogoCarousel>
             </div>
         </div>
     )
