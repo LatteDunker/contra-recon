@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.inner-shadow {
+  box-shadow: inset 0 2px 8px rgba(20, 23, 31, 0.1);
+}
+
+.outer-glow {
+  box-shadow: 0 5px 8px rgba(143, 111, 219, 0.34), 0 3px 8px rgba(83, 193, 222, 0.34);
+}
